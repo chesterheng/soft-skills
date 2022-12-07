@@ -1,0 +1,28 @@
+# Less used browser features
+
+- The Web Authentication API
+  - PROBLEM: Forms horrible to fill in on mobile
+- Background Sync
+  - PROBLEM: Can lose data if send request offline
+- The Cache API
+  - PROBLEM: Images and stylesheets can use a lot of bandwidth
+- The Beacon API
+  - PROBLEM: If user leaves the page, network "fetch" requests are cancelled
+- The Web Socket API
+  - PROBLEM: Data in the client can get out of date after a while
+- Background Fetch
+  - PROBLEM: Cannot use media files if you are offline
+- Online/offline detection
+  - PROBLEM: A piece of UI might fail if the network is not available
+- The Web Speech API
+  - PROBLEM: How well would your app work with a screen reader?
+- Two-Factor Authentication
+  - PROBLEM: How can you get two-factor authentication into your own code?
+- Catch Handler
+  - PROBLEM: Broken images look horrible when the image cannot be downloaded
+- Vibration API
+  - PROBLEM: How do you discreetly notify the user if they are not looking at the screen?
+- Location Sensor API
+  - PROBLEM: Tedious to specify your current location
+- Accelerometer
+  - PROBLEM: How can you tell if the device is moving?
